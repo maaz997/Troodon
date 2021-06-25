@@ -1,0 +1,26 @@
+
+[1]- Total no of Return statement: 1
+[2]- Total no of Control Statement:3
+[3]- Total no of Allocation instruction: 0
+[4]- Total no of Load Instructions:2
+[5]- Total no of Store Instructions:1
+[6]- Total no of Multiplication (Float Datatype) Operation: 1
+[7]- Total no of Addition(Integer Datatype) Instruction: 4
+[8]- Total no of Multiplication(Integer Datatype) Instruction: 3
+[9]- Total no of Division(Float Datatype) instruction: 0
+[10]-Total no of Division(Integer Datatype) instruction: 0
+[11]-Total no of Condition Check instruction: 1
+[12]-Total no of Addition(Float Datatype) instruction: 1
+[13]-Total no of Addition(Integer Datatype) instruction: 4
+[14]-Total no of Subtraction(Float Datatype) instruction: 0
+[15]-Total no of Subtraction(Integer Datatype) instruction: 0
+[16]-Total no of Function Call instruction: 2
+[17]-Total no of Functions:4
+[18]-Total no of Blocks:4
+[19]-Total no of Instructions:27
+[20]-Total no of Float Operation: 10
+[21]-Total no of Integer Operation:  17
+[22]-Total no of Loop Operation:  0
+[23]-Total no of Loop:    0
+	 	 Log date/time:  Wed, 23 Jun 2021 23:39:31 
+

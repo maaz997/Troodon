@@ -1,0 +1,41 @@
+Setting up Feature Extractor
+
+1. Path Setting
+
+Update the path in files below
+
+======================================== File 1 ======================================================
+llvm-pass-skeleton/build/CMakeCache.txt
+------------------------------------------------------------------------------------------------------
+Line#2=>Path/llvm-pass-skeleton/build
+Line#188=>Path/llvm-pass-skeleton/build
+Line#191=>Path/llvm-pass-skeleton
+Line#204=>Path/llvm-pass-skeleton/build
+Line#275=>Path/llvm-pass-skeleton
+======================================== File 2 ======================================================
+llvm-pass-skeleton/skeleton/Skeleton.cpp
+------------------------------------------------------------------------------------------------------
+Line#99=>Path/Temp.txt
+======================================== File 3 ======================================================
+Extract_Features.py
+------------------------------------------------------------------------------------------------------
+Line#10 => x = "clang -Xclang -load -Xclang Path/llvm-pass-skeleton/build/skeleton/libSkeletonPass.so -S -emit-llvm -o test.ll -x cl "+filename
+line#211 => Path/Temp.txt
+======================================================================================================
+
+2. Build LLVM
+
+run Build.sh
+
+or
+
+run below commands
+====================================== Build llvm ====================================================
+$ sudo apt install clang
+$ cd Path/llvm-pass-skeleton/build
+$ cmake ..
+$ make
+
+
+
+

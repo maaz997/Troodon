@@ -1,7 +1,0 @@
-
-[20]-Total no of Float Operation: 8
-[21]-Total no of Integer Operation:  17
-[22]-Total no of Loop Operation:  0
-[23]-Total no of Loop:    0
-	 	 Log date/time:  Sat, 02 Jan 2021 13:54:37 
-
