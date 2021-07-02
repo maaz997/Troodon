@@ -56,7 +56,7 @@ const LayoutComponent = () => {
             setScriptCalled(true);
           }}
           danger
-          disabled={scriptCalled}
+          // disabled={scriptCalled}
         >
           Start Scripts
         </Button>
@@ -71,7 +71,7 @@ const LayoutComponent = () => {
             setScriptCalled(true);
           }}
           danger
-          disabled={scriptCalled}
+          // disabled={scriptCalled}
         >
           Resume Scripts
         </Button>
@@ -86,7 +86,7 @@ const LayoutComponent = () => {
             setScriptCalled(true);
           }}
           danger
-          disabled={scriptCalled}
+          // disabled={scriptCalled}
         >
           Restart Scripts
         </Button>
