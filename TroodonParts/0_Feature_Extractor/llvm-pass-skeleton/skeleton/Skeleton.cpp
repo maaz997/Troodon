@@ -96,7 +96,7 @@ namespace {
 	//errs() << "\t\t\t\tTotal no of Control Statement Instructions: " << instbr << "\n  ";
 	//errs() << "\t\t\t\tTotal no of Math Operation " << instfadd << "\n \n ";
 
-	myfile = fopen ("/home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/Temp.txt","w");
+	myfile = fopen ("/home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/Temp.txt","w");
 	
 	fprintf(myfile,"\n"); 
 	fprintf(myfile, "[1]- Total no of Return statement: " ); 

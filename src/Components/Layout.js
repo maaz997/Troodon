@@ -49,7 +49,7 @@ const LayoutComponent = () => {
         <Button
           onClick={() => {
             if (!scriptCalled) {
-              axios.get("/script").then((resp) => {
+              axios.get("/startscript").then((resp) => {
                 setScriptMessage(resp.data);
               });
             }
@@ -58,8 +58,39 @@ const LayoutComponent = () => {
           danger
           disabled={scriptCalled}
         >
-          Execute Scripts
+          Start Scripts
         </Button>
+
+        <Button
+          onClick={() => {
+            if (!scriptCalled) {
+              axios.get("/resumescript").then((resp) => {
+                setScriptMessage(resp.data);
+              });
+            }
+            setScriptCalled(true);
+          }}
+          danger
+          disabled={scriptCalled}
+        >
+          Resume Scripts
+        </Button>
+
+        <Button
+          onClick={() => {
+            if (!scriptCalled) {
+              axios.get("/restartscript").then((resp) => {
+                setScriptMessage(resp.data);
+              });
+            }
+            setScriptCalled(true);
+          }}
+          danger
+          disabled={scriptCalled}
+        >
+          Restart Scripts
+        </Button>
+
         <Divider />
         <h3 style={{ color: "red" }}>{scriptMessage}</h3>
         <Divider />

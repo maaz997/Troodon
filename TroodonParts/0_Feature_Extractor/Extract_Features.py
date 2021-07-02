@@ -7,7 +7,7 @@ print filename
 
 #print "\n \t Enter a File Path for Static Analysis:",
 #filename = raw_input()
-x = "clang -Xclang -load -Xclang /home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/llvm-pass-skeleton/build/skeleton/libSkeletonPass.so -S -emit-llvm -o test.ll -x cl "+filename
+x = "clang -Xclang -load -Xclang /home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/llvm-pass-skeleton/build/skeleton/libSkeletonPass.so -S -emit-llvm -o test.ll -x cl "+filename
 os.system("clear")
 checking=os.system(x)
 
@@ -208,7 +208,7 @@ line4 += str(lout)
 
 
 #os.remove('b1.txt')
-temp_path = '/home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/Temp.txt';
+temp_path = '/home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/Temp.txt';
 fout=open(temp_path, 'a')
 fout.write("\n")
 fout.write(line1)

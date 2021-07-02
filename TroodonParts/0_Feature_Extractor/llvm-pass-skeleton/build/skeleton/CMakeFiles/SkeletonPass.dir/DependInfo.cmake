@@ -4,13 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/llvm-pass-skeleton/skeleton/Skeleton.cpp" "/home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/llvm-pass-skeleton/build/skeleton/CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o"
+  "/home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/llvm-pass-skeleton/skeleton/Skeleton.cpp" "/home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/llvm-pass-skeleton/build/skeleton/CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "SkeletonPass_EXPORTS"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/lib/llvm-6.0/include"
+  "/usr/lib/llvm-10/include"
   )
 
 # Targets to which this target links.

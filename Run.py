@@ -1,3 +1,3 @@
 import os
-os.chdir("./TroodonParts/P1")
-os.system("./Run.sh")
+os.chdir("./TroodonParts/1_Data_Generator")
+os.system("python _Start.py")

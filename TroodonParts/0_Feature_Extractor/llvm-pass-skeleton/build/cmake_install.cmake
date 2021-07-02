@@ -1,4 +1,4 @@
-# Install script for directory: /home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/llvm-pass-skeleton
+# Install script for directory: /home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/llvm-pass-skeleton
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/llvm-pass-skeleton/build/skeleton/cmake_install.cmake")
+  include("/home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/llvm-pass-skeleton/build/skeleton/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/llvm-pass-skeleton/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/llvm-pass-skeleton/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

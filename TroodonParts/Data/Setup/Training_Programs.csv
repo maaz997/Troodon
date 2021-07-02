@@ -1,5 +1,7 @@
-Program Name,Kernel Name,Host Name
-Matrix_Addition,matrixadd_host.cpp,matrixadd_kernel.cl
-Matrix_Subtraction,matrixsub_host.cpp,matrixsub_kernel.cl
-Matrix_Multiplication,matrixmul_host.cpp,matrixmul_kernel.cl
-Matrix_Transpose,matrixT_host.cpp,matrixT_kernel.cl
+Path = /home/user-admin/Documents/Final/Troodon/TroodonParts
+Ram(GB) = 8
+CPU Rank = 2000 
+GPU Rank = 1000
+CPU Platform = 1
+GPU Platform = 0
+

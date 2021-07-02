@@ -1,4 +1,4 @@
-# Install script for directory: /home/user-admin/Desktop/2.0/Troodon/0_Feature_Extractor/llvm-pass-skeleton/skeleton
+# Install script for directory: /home/black/Documents/Final/Troodon/TroodonParts/0_Feature_Extractor/llvm-pass-skeleton/skeleton
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

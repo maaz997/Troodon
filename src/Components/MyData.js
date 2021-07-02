@@ -6,14 +6,14 @@ const MyData = () => {
 
   React.useEffect(() => {
     const socket = socketIOClient("/");
-    socket.on("MyData", (data) => {
+    socket.on("ExecutionData", (data) => {
       setMyDataResponse(data);
     });
   }, []);
 
   return (
     <>
-      <h1>My Data</h1>
+      <h1>Execution Data</h1>
       <div className="site-layout-content">
         {myDataResponse !== undefined ? (
           <table>
@@ -33,7 +33,7 @@ const MyData = () => {
               ))}
             </tbody>
           </table>
-        ) : null}{" "}
+        ) : null}
       </div>
     </>
   );
